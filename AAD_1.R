@@ -12,7 +12,7 @@ for(i in 1:6)
 print(M) 
 
 
-#test de reflexivité
+#test de reflexivitÃ©
 test = TRUE
 
 for(i in 1:6)
@@ -44,7 +44,7 @@ symetrie <- test
 print(symetrie)
 print(test)
 
-#test de transivité
+#test de transivitÃ©
 
 test <- FALSE
 
