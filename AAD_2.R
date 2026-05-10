@@ -19,7 +19,7 @@ appar <- function(x, F) {
 
 cond1 <- appar(omega, A)
 
-# stabilité par rapport au complement
+# stabilitÃ© par rapport au complement
 cond2 <- TRUE
 for (i in A) {
   comp <- setdiff(omega, i)
@@ -28,7 +28,7 @@ for (i in A) {
   }
 }
 
-#  stabilité par rapport a l union
+#  stabilitÃ© par rapport a l union
 cond3 <- TRUE
 for (i in A) {
   for (j in A) {
